@@ -1,0 +1,54 @@
+html,
+body {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #15151a;
+    font-family: 'Arial', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.container {
+    color: #F4F4F4;
+    text-align: center;
+    width: 300px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Não deixa as tags ultrapassarem o limite do width */
+}
+
+.container input {
+    background: #0a0a0e;
+    color: #F4F4F4;
+    border: none; /* Retira as bordas, deixando um design clean */
+}
+
+.container button {
+    color: #F4F4F4;
+    background-color: #101014;
+    border: none;
+    cursor: pointer; /* Altera o cursor ao passar o mouse em cima do elemento */
+}
+
+.container button:hover {
+    background-color: #050404;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
