@@ -39,7 +39,7 @@ input, button {
 
 .container button {
     color: #F4F4F4;
-    background-color: #101014;
+    background-color: #0b0b0e;
     border: none;
     cursor: pointer; /* Altera o cursor ao passar o mouse em cima do elemento */
 }
@@ -51,4 +51,13 @@ input, button {
 .container h1 {
     font-size: 40px;
     margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 5px;
+    font-size: 19px;
+    background-color: #25252d;
+    word-wrap: break-word;
 }
